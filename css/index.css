@@ -308,6 +308,7 @@
 .bannerxia{
 	width: 100%;
 	height: 440px;
+	overflow: hidden;
 
 }
 .bannerxiadi{
@@ -315,7 +316,6 @@
 	height: 440px;
 	background-color: grey;
 	margin: 0 auto;
-	float: left;
 }
 .bannerxia1{
 	width: 190px;
@@ -1030,6 +1030,7 @@
 	height: 427px;
 	background-color: yellow;
 	float: right;
+	overflow: hidden;
 } 
 .paihangbang div.paihangbang_top {
 	background-color: #b62323;
@@ -1512,6 +1513,7 @@
 	background-color: white;
 	float: left;
 	margin-right: 10px;
+	overflow: hidden;
 }
 .diqi div.diannaobangong{
 	margin-right: 0;
@@ -2009,19 +2011,22 @@
 .cai{
 	width: 1190px;
 	height: 6889px;
-	background-color: white;
+	background-color: #F2F2F2;
 	margin: 20px auto 0;
 }
 .cai_top{
-	width: 100%;
-    height: 36px;
-    background: #F2F2F2;  
+	width: 1190px;
+    height: 22px;
+    background: #F2F2F2;
+    margin: 0 auto; 
+
 }
 .cai_top1{
 	float: left;
     width: 3px;
     height: 20px;
     background: #fe9901;
+
 }
 .cai_top h5{
 	float: left;
@@ -2033,6 +2038,8 @@
 	width: 1190px;
 	height: 6822px;
 	background-color: white;
+	margin: 14px auto 0;
+
 }
 .cai_content1{
 	width: 237px;
@@ -2076,14 +2083,16 @@
 }
 .cai_footer{
 	width: 112px;
-	height: 22px;
+	height: 20px;
     position: relative;	
 	text-align: center;
-    margin: 0 auto;
+    margin: 20px auto 0;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 20px;
     color: #ccc;
+
 }
+
 .cai_footer_shuxian1{
 	position: absolute;
     top: 11px;
@@ -2103,26 +2112,32 @@
 .zhandian{
 	width: 100%;
 	height: 444px;
-	background-color: red;
+	background-color: #F1F1F1;
 	padding-top: 10px;
+	overflow: hidden;
 }
 .zhandian_top{
 	width: 100%;
 	height: 278px;
 	background-color: #F5F5F5;
+	margin-top: 20px;
 }
 .zhandian_top1{
-	width: 1250px;
+	width: 1190px;
     padding: 12px 0;
     height: 73px;
     border-bottom: 1px solid #eaeaea;
     margin: 0 auto;	
+
 }
 .zhandian_top12 {
 	width: 250px;
     float: left;
     overflow: hidden;	
-} 
+}
+.zhandian_top12:last-child{
+	width: 180px;
+}
 .zhandian_top1 img{
 	width: 48px;
 	float: left;
@@ -2143,7 +2158,7 @@
 	font-size: 14px;
 }
 .zhandian_top2{
-	width: 1250px;
+	width: 1190px;
 	height: 180px;
 	margin: 0 auto;
 }
@@ -2172,6 +2187,83 @@
 	margin-top: 5px;
 	cursor: pointer; 
 }
+.zhandian_xia{
+	width: 100%;
+	height: 175px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.zhandian_xia_content{
+	width: 1190px;
+	height: 160px;
+	margin: 0 auto;
+	position: relative;
+}
+.zhandian_xia1{
+	width: 550px;
+	height: 25px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.zhandian_xia_content1_wenzi{
+	color: #666;
+	font-size: 12px;
+	line-height: 25px;
+	float: left;
+}
+.zhandian_xia_content1_shuxian{
+	width: 1px;
+	height: 12px;
+	background-color:#888;
+	margin: 7px 7px 0;
+	font-weight: normal;
+	float: left;
+}
+.zhandian_xia2{
+	width: 700px;
+	height: 25px;
+	top: 25px;
+}
+.zhandian_xia3{
+	width: 850px;
+	height: 25px;
+	top: 50px;
+}
+.zhandian_xia4{
+	width:840px;
+	height: 25px;
+	top: 75px;
+}
+.zhandian_xia5{
+	width:670px;
+	height: 25px;
+	top: 100px;
+}
+.zhandian_xia_content1_wenzi1{
+	font-family: 'iconfont';
+	color: #999;
+	float: left;
+	font-size: 12px;
+	line-height: 25px;
+	letter-spacing:1px;
+}
+.zhandian_xia_content1_image{
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 130px;
+}
+.zhandian_xia_content1_image1{
+	margin-right: 5px;
+}
+.zhandian_xia5,.zhandian_xia4,.zhandian_xia3,.zhandian_xia2,.zhandian_xia1{
+	margin: 0 auto;
+}
+
 
     
     
@@ -2230,18 +2322,12 @@
 .bannerxia1 li a:hover{
 	color: #f60;
 }
-.bannerxia3_2_img:hover{
+.bannerxia3_2_img:hover,.zhandian_top1 img:hover,.zhandian_top1-1:hover{
 	cursor: pointer;
 }
-.bannerxia3_41 a:hover{
-	color: #f60;
-}
-.bannerxia3_42 a:hover{
-	color: #f60;
-}
-.bannerxia3_44 a:hover{
-	color: #f60;
-}
-.bannerxia3_45 a:hover{
+.bannerxia3_41 a:hover,
+.bannerxia3_42 a:hover,.bannerxia3_44 a:hover,
+.bannerxia3_45 a:hover,.footer2_1 h2:hover,
+.zhandian_top1-1:hover{
 	color: #f60;
 }
