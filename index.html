@@ -10,38 +10,87 @@
 <body>
 	<!--右侧定导航 -->
 	<div class="ceding">
-		<div class="ceding1">
-			&#xe658;
-		</div>
+		<div class="ceding1"></div>
 		<div class="ceding2">
-			<div class="ceding2_1">&#xe61b;</div>
+			<div class="ceding2_1"></div>
 			<span class="ceding2_2">购物车</span>
 			<span class="ceding2_3">0</span>
 		</div>
 		<div class="ceding3">
-			<div class="ceding31">&#xe60d;</div>
-			<div class="ceding31">&#xe645;</div>
-			<div class="ceding31 ceding32">&#xe685;</div>
-			<div class="ceding31 ceding32">&#xe653;</div>
+			<div class="ceding31">
+				<span class="ceding31_tab_tip">消息</span>
+			</div>
+			<div class="ceding31">
+				<span class="ceding31_tab_tip">理财</span>				
+			</div>
+			<div class="ceding31">
+				<span class="ceding31_tab_tip">足迹</span>				
+			</div>
+			<div class="ceding31">
+				<span class="ceding31_tab_tip">签到</span>				
+			</div>
 		</div>
 		<div class="ceding4">
-			<div class="ceding31">&#xe678;</div>
-			<div class="ceding31 ceding32">&#xe7de;</div>
-			<div class="ceding31 ceding32">&#xe64b;</div>
+			<div class="ceding32">
+				<span class="ceding32_tab_tip">在线咨询</span>		
+			</div>
+			<div class="ceding32">
+				<span class="ceding32_tab_tip">意见反馈</span>
+			</div>
+			<div class="ceding32">
+				<span class="ceding32_tab_tip ceding32_tab_tip2">
+					<a href="">
+						<img src="img/a-c1/aer.png" alt="" class="ceding32_tab_tip2_img">
+					</a>
+				</span>
+			</div>
 			<div class="ceding34">
-				<p>&#xe62b;</p>
-				<span>TOP</span>
+				<span class="ceding34_tab_tip">返回顶部</span>
 			</div>
 		</div>
 	</div>
 	<!--右侧定导航结束 -->
 
 	<!-- 头部上定搜索框 -->
-	<div class="topbar"></div>
+	<div class="topbar">
+		<div class="topbar_di">
+			<div class="topbar1">
+				<div class="bannershang1">
+					<i>&#xe607;</i>
+					<span>全部商品分类</span>
+				</div>	
+			</div>
+			<div class="topbar2">
+				<input type="text" class="search3_shang">
+					<div class="search3_shang1">
+						<i>&#xe627;</i>
+					</div>
+					<input class="search3_shang3" value="搜索" type="submit">		
+			</div>	
+			<div class="topbar3">
+				<div class="toubu_di_right4">
+					<a href="">&#xe61b;</a>
+					<a href="">购物车</a>
+					<i>0</i>
+					<em>&#xe638;</em>
+					<div class="toubu_di_right4_chu">
+						<div class="toubu_di_right4_chu_loading">
+							<p>加载中...</p>
+						</div>
+					</div>
+				</div>
+				<div class="toubu_di_right6">
+					<a href="" >请登录</a>
+					<a href="" class="toubu_di_right61">注册有礼</a>	
+				</div>
+			</div>		
+		</div>
+	</div>
 	<!-- 头部上定搜索框结束 -->
 
 	<!-- 左侧弹框效果 -->
 	<ul class="leftbar">
+		<div class="leftbar_shangtu"></div>
 		<li class="tips active">
 		手机电脑
 		</li>
@@ -80,7 +129,7 @@
 		猜你喜欢
 			<!-- <a href="javascript:;">猜你喜欢</a>			 -->
 		</li>
-		<a href="" class="return"></a>
+		<div href="" class="return"></div>
 	</ul>
 	<!-- 左侧弹框效果结束 -->
 
@@ -295,17 +344,13 @@
 			</div>
 			<div class="search2">
 				<img src="img/s2.jpg" alt="">
-			</div>
+			</div>			
 			<div class="search3">
-				<div class="search3_shang">
+				<input type="text" class="search3_shang">
 					<div class="search3_shang1">
 						<i>&#xe627;</i>
 					</div>
-					<div class="search3_shang3">
-						
-					</div>
-					
-				</div>
+					<input class="search3_shang3" value="搜索" type="submit">			
 				<div class="search3_xia">
 					<a href="">取暖器</a>
 					<div class="search3_xia_shuxian"></div>
@@ -325,19 +370,13 @@
 					<div class="search3_xia_shuxian"></div>
 					<a href="">奶粉</a>
 					<div class="search3_xia_shuxian"></div>
-					<a href="">安全座椅</a>
-
-					
-				</div>
-				
+					<a href="">安全座椅</a>					
+				</div>			
 			</div>
 			<div class="search4">
 				<img src="img/s3.png" alt="">
-
-			</div>
-			
-		</div>
-		
+			</div>	
+		</div>		
 	</div>
 	<!-- 第二部分搜索框结束 -->
 	<!-- banner上开始 -->
@@ -348,17 +387,46 @@
 				<span>全部商品分类</span>
 			</div>
 			<div class="bannershang2">
-				<a href="">大聚惠</a>
-				<a href="">母婴玩具</a>
-				<a href="">苏宁超市</a>
-				<a href="">电器城</a>
-				<a href="">生活家电</a>
-				<a href="">时尚服饰</a>
-				<a href="">海外购</a>
-				<a href="">特卖</a>
-				<a href="">苏宁金融</a>
-				<a href="">苏宁专员</a>
-				
+				<li class="bannershangli">
+					<a href="">大聚惠</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">母婴玩具</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">苏宁超市</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">电器城</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">生活家电</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">时尚服饰</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">海外购</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">特卖</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">苏宁金融</a>
+					<span class="bannershangli_chu"></span>				
+				</li>
+				<li class="bannershangli">
+					<a href="">苏宁专员</a>
+					<span class="bannershangli_chu"></span>				
+				</li>				
 			</div>
 			<div class="bannershang3">
 				<img src="img/banner1.png" alt="">
@@ -416,132 +484,91 @@
 							</dl>
 							<dl>
 								<dt>
-									<a href="">手机通讯</a>
-								</dt>
-								<dd>
-									<a href="" class="orange">【疯抢600元大额手机券】</a>
-									<a href="">全部手机</a>
-									<a href="">iphone</a>
-									<a href="" class="orange">小米</a>
-									<a href="">荣耀</a>
-									<a href="" class="orange">华为</a>
-									<a href="">三星</a>
-									<a href="" class="orange">魅族</a>
-									<a href="">oppo</a>
-									<a href="">vivo</a>
-									<a href="">美图</a>
-									<a href="" class="orange">努比亚</a>
-									<a href="" class="orange">诺基亚</a>
-									<a href="">飞利浦</a>
-									<a href="">金立</a>
-									<a href="">守护宝</a>
-									<a href="" class="orange">正品好货</a>
-									<a href="">以旧换新</a>
-									<a href="">手机维修</a>
-								</dd>
-							</dl>
-							<dl>
-								<dt>
 									<a href="">手机配件</a>
 								</dt>
 								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
 									<a href="">手机壳</a>
-									<a href="">全部手机</a>
-									<a href="">iphone</a>
-									<a href="" class="orange">小米</a>
-									<a href="">荣耀</a>
-									<a href="" class="orange">华为</a>
-									<a href="">三星</a>
-									<a href="" class="orange">魅族</a>
-									<a href="">oppo</a>
-									<a href="">vivo</a>
-									<a href="">美图</a>
-									<a href="" class="orange">努比亚</a>
-									<a href="" class="orange">诺基亚</a>
-									<a href="">飞利浦</a>
-									<a href="">金立</a>
-									<a href="">守护宝</a>
-									<a href="" class="orange">正品好货</a>
-									<a href="">以旧换新</a>
-									<a href="">手机维修</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
 								</dd>
 							</dl>
 							<dl>
 								<dt>
-									<a href="">手机通讯</a>
+									<a href="">智能设备</a>
 								</dt>
 								<dd>
-									<a href="" class="orange">【疯抢600元大额手机券】</a>
-									<a href="">全部手机</a>
-									<a href="">iphone</a>
-									<a href="" class="orange">小米</a>
-									<a href="">荣耀</a>
-									<a href="" class="orange">华为</a>
-									<a href="">三星</a>
-									<a href="" class="orange">魅族</a>
-									<a href="">oppo</a>
-									<a href="">vivo</a>
-									<a href="">美图</a>
-									<a href="" class="orange">努比亚</a>
-									<a href="" class="orange">诺基亚</a>
-									<a href="">飞利浦</a>
-									<a href="">金立</a>
-									<a href="">守护宝</a>
-									<a href="" class="orange">正品好货</a>
-									<a href="">以旧换新</a>
-									<a href="">手机维修</a>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
 								</dd>
 							</dl>
 							<dl>
 								<dt>
-									<a href="">手机通讯</a>
+									<a href="">电子教育</a>
 								</dt>
 								<dd>
-									<a href="" class="orange">【疯抢600元大额手机券】</a>
-									<a href="">全部手机</a>
-									<a href="">iphone</a>
-									<a href="" class="orange">小米</a>
-									<a href="">荣耀</a>
-									<a href="" class="orange">华为</a>
-									<a href="">三星</a>
-									<a href="" class="orange">魅族</a>
-									<a href="">oppo</a>
-									<a href="">vivo</a>
-									<a href="">美图</a>
-									<a href="" class="orange">努比亚</a>
-									<a href="" class="orange">诺基亚</a>
-									<a href="">飞利浦</a>
-									<a href="">金立</a>
-									<a href="">守护宝</a>
-									<a href="" class="orange">正品好货</a>
-									<a href="">以旧换新</a>
-									<a href="">手机维修</a>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
 								</dd>
 							</dl>
 							<dl>
 								<dt>
-									<a href="">手机通讯</a>
+									<a href="">苏宁互联</a>
 								</dt>
 								<dd>
-									<a href="" class="orange">【疯抢600元大额手机券】</a>
-									<a href="">全部手机</a>
-									<a href="">iphone</a>
-									<a href="" class="orange">小米</a>
-									<a href="">荣耀</a>
-									<a href="" class="orange">华为</a>
-									<a href="">三星</a>
-									<a href="" class="orange">魅族</a>
-									<a href="">oppo</a>
-									<a href="">vivo</a>
-									<a href="">美图</a>
-									<a href="" class="orange">努比亚</a>
-									<a href="" class="orange">诺基亚</a>
-									<a href="">飞利浦</a>
-									<a href="">金立</a>
-									<a href="">守护宝</a>
-									<a href="" class="orange">正品好货</a>
-									<a href="">以旧换新</a>
-									<a href="">手机维修</a>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
 								</dd>
 							</dl>
 						</div>
@@ -592,6 +619,187 @@
 					<a href="">洗衣机</a>
 					<p>/</p>
 					<a href="">冰箱</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">空调</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【315空调品质节 用券满8000省800】</a>
+									<a href="">壁挂式空调</a>
+									<a href="">柜式空调</a>
+									<a href="" class="orange">变频空调</a>
+									<a href="">1.5匹空调</a>
+									<a href="">合资空调</a>
+									<a href="">中央空调</a>
+									<a href="" class="orange">以旧换新</a>
+									<a href="">0元安装</a>
+									<a href="">空调配件</a>
+									<a href="" class="orange">店铺精选</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="" class="orange">4K超高清</a>
+									<a href="">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="">量子点电视</a>
+									<a href="">曲面电视</a>
+									<a href="" class="orange">店铺精选</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">冰箱</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【冰箱洗衣机  下单最高立减1500 】</a>
+									<a href="" class="orange">对开门</a>
+									<a href="" class="orange">多门</a>
+									<a href="">十字对开</a>
+									<a href="">三门</a>
+									<a href="">双门</a>
+									<a href="">风冷（无霜）</a>
+									<a href="" class="orange">西门子</a>
+									<a href="">海尔</a>
+									<a href="">容声</a>
+									<a href="" class="orange">美菱</a>
+									<a href="">美的</a>
+									<a href="">三星</a>
+									<a href="" class="orange">松下</a>
+									<a href="">海信</a>
+									<a href="">博世</a>
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">洗衣机</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【爆款冰箱668元起 】</a>
+									<a href="" class="orange">滚筒</a>
+									<a href="" class="orange">洗干一体机</a>
+									<a href="">波轮</a>
+									<a href="">大容量</a>
+									<a href="">迷你洗衣机</a>
+									<a href="">变频</a>
+									<a href="" class="orange">海尔</a>
+									<a href="">西门子</a>
+									<a href="" class="orange">小天鹅</a>
+									<a href="">美的</a>
+									<a href="" class="orange">三洋</a>
+									<a href="">松下</a>
+									<a href="">海信</a>
+									<a href="">博世</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">冷柜</a>
+								</dt>
+								<dd>
+									<a href="">卧式冷柜</a>
+									<a href="">立式冷柜</a>
+									<a href="">商用展示柜</a>
+									<a href="">冰吧</a>
+									<a href="">厨房操作台</a>
+									<a href="">海鲜柜</a>
+									<a href="">点菜柜</a>
+									<a href="">海尔</a>
+									<a href="">星星</a>
+									<a href="">美的</a>
+									<a href="">美菱</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">影音</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">家庭影院</a>
+									<a href="">回音壁</a>
+									<a href="">迷你音响</a>
+									<a href="" class="orange">雅马哈</a>
+									<a href="">飞利浦</a>
+									<a href="">索尼</a>
+									<a href="">BOSE</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">帮客服务</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">安装服务</a>
+									<a href="">清洗服务</a>
+									<a href="">维修服务</a>
+									<a href="">上门服务卡</a>
+									<a href="">清洗产品</a>
+									<a href="">帮客材配</a>
+									<a href="">帮客蓝狮</a>
+									<a href="">家电医保卡</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a2-1.png" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a2-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="空调志高">
+									<img src="img/a-c1/a2-9.jpg" alt="">
+								</a>
+								<a href="" title="冰洗14">
+									<img src="img/a-c1/a2-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe641;</span>
@@ -600,6 +808,182 @@
 					<a href="">生活家电</a>
 					<p>/</p>
 					<a href="">厨具</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">厨卫家装馆</a>
+							<a href="">生活家电频道</a>
+							<a href="">个护健康</a>
+							<a href="">厨具达人</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">厨房大电</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 厨卫预售24小时】</a>
+									<a href="">油烟机</a>
+									<a href="">燃气灶</a>
+									<a href="" class="orange">烟灶套餐</a>
+									<a href="">消毒柜</a>
+									<a href="" class="orange">洗碗机</a>
+									<a href="">嵌入式厨电</a>
+									<a href="" class="orange">集成灶</a>
+									<a href="">垃圾处理器</a>
+									<a href="">商用厨房电器</a>
+									<a href="">商用展示柜</a>
+									<a href="" class="orange">蒸饭柜</a>
+									<a href="" class="orange">商用绞肉机</a>
+									<a href="">商用冷柜</a>
+									<a href="">商用制冰机</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">卫浴电器</a>
+								</dt>
+								<dd>
+									<a href="">热水器</a>
+									<a href="">电热水器</a>
+									<a href="">燃气热水器</a>
+									<a href="">厨宝</a>
+									<a href="">浴霸/排气扇</a>
+									<a href="">智能马桶盖</a>
+									<a href="">空气能</a>
+									<a href="">采暖炉</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">中式厨房</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【捍卫品质 每满200减40】</a>
+									<a href="">电饭煲</a>
+									<a href="">电压力锅</a>
+									<a href="">豆浆机</a>
+									<a href="">电磁炉</a>
+									<a href="">电水壶/电水瓶</a>
+									<a href="">榨汁机/原汁机</a>
+									<a href="">电饼铛</a>
+									<a href="">多用途锅</a>
+									<a href="">电炖锅</a>
+									<a href="">电蒸锅</a>
+									<a href="">煮蛋器</a>
+									<a href="">养生壶/煎药壶</a>
+									<a href="">电热饭盒</a>
+									<a href="">电陶炉</a>
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">西式厨房</a>
+								</dt>
+								<dd>
+									<a href="">电烤箱</a>
+									<a href="">微波炉</a>
+									<a href="">面包机</a>
+									<a href="">酸奶机</a>
+									<a href="">咖啡机</a>
+									<a href="">空气炸锅</a>
+									<a href="">食品加工机/搅拌机</a>
+									<a href="">打蛋器</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">生活电器</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">空气净化器</a>
+									<a href="">吸尘器</a>
+									<a href="">除湿机</a>
+									<a href="">电风扇</a>
+									<a href="">空调扇</a>
+									<a href="">扫地机器人</a>
+									<a href="">加湿器</a>
+									<a href="">干衣机</a>
+									<a href="">取暖器</a>
+									<a href="">挂烫机</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">个护健康</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">剃须刀</a>
+									<a href="">电吹风</a>
+									<a href="">美容仪</a>
+									<a href="">电动牙刷</a>
+									<a href="" class="orange">美发器</a>
+									<a href="">按摩椅</a>
+									<a href="">足浴盆</a>
+									<a href="">按摩垫/按摩枕</a>
+									<a href="" class="orange">头部按摩器</a>
+									<a href="">肩颈按摩器</a>
+									<a href="">眼部按摩器</a>
+									<a href="">体脂秤</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">厨具</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">炒锅</a>
+									<a href="">压力锅</a>
+									<a href="">蒸锅</a>
+									<a href="">煎锅</a>
+									<a href="">火锅</a>
+									<a href="">汤锅</a>
+									<a href="">奶锅</a>
+									<a href="">锅具套装</a>
+									<a href="">砂锅</a>
+									<a href="">刀具</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a3-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a3-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a3-9.jpg" alt="">
+								</a>
+								<a href="" title="厨卫13号">
+									<img src="img/a-c1/a3-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe642;</span>
@@ -608,6 +992,184 @@
 					<a href="">相机</a>
 					<p>/</p>
 					<a href="">DIY</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">电脑频道</a>
+							<a href="">相机频道</a>
+							<a href="">以旧换新</a>
+							<a href="">企业采购</a>
+							<a href="">海外购电脑</a>
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电脑整机</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">笔记本</a>
+									<a href="">游戏本</a>
+									<a href="">轻薄本</a>
+									<a href="" class="orange">台式电脑</a>
+									<a href="">电脑一体机</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">平板电脑</a>
+								</dt>
+								<dd>
+									<a href="">iPad</a>
+									<a href="">华为平板</a>
+									<a href="">iPad套餐</a>
+									<a href="">Kindle</a>
+									<a href="">二合一 </a>
+									<a href="">微软平板</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">网络设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">路由器</a>
+									<a href="">无线网卡</a>
+									<a href="">交换机</a>
+									<a href="">随身wifi</a>
+									<a href="">网络存储</a>
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">外设附件</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">鼠标</a>
+									<a href="">键盘</a>
+									<a href="">键鼠套装</a>
+									<a href="">U盘</a>
+									<a href="">移动硬盘</a>
+									<a href="">电脑音箱</a>
+									<a href="">游戏耳机</a>
+									<a href="">插线板</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">摄影摄像</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">数码相机</a>
+									<a href="">单反</a>
+									<a href="">微单/单电</a>
+									<a href="">拍立得</a>
+									<a href="">佳能 </a>
+									<a href="">索尼</a>
+									<a href="">尼康</a>
+									<a href="">摄像机 </a>
+									<a href="">镜头</a>
+									<a href="">运动相机</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">数码配件</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">三脚架/云台</a>
+									<a href="">相机包</a>
+									<a href="">闪光灯手柄</a>
+									<a href="">滤镜</a>
+									<a href="">电池/充电器</a>
+									<a href="">机身附件</a>
+									<a href="">望远镜</a>
+									<a href="">读卡器</a>
+									<a href="">相机清洁</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电脑配件</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">显示器</a>
+									<a href="">CPU</a>
+									<a href="">主板</a>
+									<a href="">显卡</a>
+									<a href="">硬盘</a>
+									<a href="">SSD固态硬盘</a>
+									<a href="">内存</a>
+									<a href="">机箱</a>
+									<a href="">散热器</a>
+									<a href="">电源</a>
+									<a href="">组装电脑</a>
+									<a href="">刻录机/光驱</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">办公文仪</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">投影仪</a>
+									<a href="">打印机</a>
+									<a href="">复印/复合机</a>
+									<a href="">电话机</a>
+									<a href="">标签机</a>
+									<a href="">复印纸</a>
+									<a href="">硒鼓</a>
+									<a href="">办公文具</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a4-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-3.jpg alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a4-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="相机春季游">
+									<img src="img/a-c1/a4-9.jpg" alt="">
+								</a>
+								<a href="" title="平台钜惠">
+									<img src="img/a-c1/a4-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe603;</span>
@@ -616,6 +1178,166 @@
 					<a href="">家具</a>
 					<p>/</p>
 					<a href="">家装</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe66f;</span>
@@ -626,6 +1348,166 @@
 					<a href="">生鲜</a>
 					<p>/</p>
 					<a href="">特产</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe602;</span>
@@ -634,6 +1516,166 @@
 					<a href="">制品清洁</a>
 					<p>/</p>
 					<a href="">宠物</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe600;</span>
@@ -644,6 +1686,166 @@
 					<a href="">车床</a>
 					<p>/</p>
 					<a href="">童装</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe604;</span>
@@ -654,6 +1856,166 @@
 					<a href="">足球</a>
 					<p>/</p>
 					<a href="">骑行</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe601;</span>
@@ -662,6 +2024,166 @@
 					<a href="">女装</a>
 					<p>/</p>
 					<a href="">内衣</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe613;</span>
@@ -672,6 +2194,166 @@
 					<a href="">钟表</a>
 					<p>/</p>
 					<a href="">珠宝</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe698;</span>
@@ -680,6 +2362,166 @@
 					<a href="">汽车精品</a>
 					<p>/</p>
 					<a href="">服务</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li>
 					<span>&#xe616;</span>
@@ -688,6 +2530,166 @@
 					<a href="">童书</a>
 					<p>/</p>
 					<a href="">电子书</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>			
 				<li>
 					<span>&#xe67b;</span>
@@ -698,6 +2700,166 @@
 					<a href="">分期</a>
 					<p>/</p>
 					<a href="">保险</a>
+					<div class="bannerxia1_chu">
+						<div class="bannerxia1_chu_sortbtn">
+							<a href="">电器城</a>
+							<a href="">彩电频道</a>
+							<a href="">冰箱/洗衣机频道</a>
+							<a href="">空调频道</a>
+							<a href="">以旧换新</a>
+							<a href="">智能家电</a>
+							<a href="">企业采购</a>
+							<a href="">海外购</a>						
+						</div>
+						<div class="bannerxia1_chu_catelist">
+							<dl>
+								<dt>
+									<a href="">电视</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【领券最高直降1000元】</a>
+									<a href="">平板电视</a>
+									<a href="">4K超高清</a>
+									<a href="" class="orange">海信</a>
+									<a href="">55英寸电视</a>
+									<a href="" class="orange">智能电视</a>
+									<a href="">PPTV</a>
+									<a href="" class="orange">夏普</a>
+									<a href="">OLED电视</a>
+									<a href="">小米</a>
+									<a href="">飞利浦</a>
+									<a href="" class="orange">量子点电视</a>
+									<a href="" class="orange">曲面电视</a>
+									<a href="">店铺精选</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">手机配件</a>
+								</dt>
+								<dd>
+									<a href="">【爆款智能产品满1000减100】</a>
+									<a href="">手机壳</a>
+									<a href="">手机贴膜</a>
+									<a href="">手机存储卡</a>
+									<a href="">数据线</a>
+									<a href="">充电器</a>
+									<a href="">手机耳机</a>
+									<a href="">手机电池</a>
+									<a href="">苹果周边</a>
+									<a href="">移动电源</a>
+									<a href="">蓝牙耳机</a>
+									<a href="">自拍杆</a>
+									<a href="">手机支架</a>
+									<a href="">手机U盘</a>
+									<a href="">蓝牙音箱</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">智能设备</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">【品牌盛典 智能部分商品送180天质保】</a>
+									<a href="">智能手环</a>
+									<a href="">智能手表</a>
+									<a href="">体感车</a>
+									<a href="">VR眼镜</a>
+									<a href="">智能摄像头</a>
+									<a href="">智能家居</a>
+									<a href="">智能门锁</a>
+									<a href="">无人机</a>
+									<a href="">智能机器人</a>
+									<a href="">智能健康监测</a>			
+								</dd>
+							</dl>							
+							<dl>
+								<dt>
+									<a href="">影音电子</a>
+								</dt>
+								<dd>
+									<a href="">运动耳机</a>
+									<a href="">耳机/耳麦</a>
+									<a href="">MP3/MP4</a>
+									<a href="">收音/收音机</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">电子教育</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">儿童手表</a>
+									<a href="">小天才儿童手表</a>
+									<a href="">点读机/笔</a>
+									<a href="">学习机</a>
+									<a href="">电子书</a>
+									<a href="">电子词典</a>			
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">苏宁互联</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">0月租至简号卡</a>
+									<a href="">苏宁云卡</a>
+									<a href="">靓号限量抢</a>
+									<a href="">选号入网</a>				
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="">营业厅</a>
+								</dt>
+								<dd>
+									<a href="" class="orange">运营商315权益周</a>
+									<a href="">合约机</a>
+									<a href="">选号码</a>
+									<a href="">办套餐</a>	
+									<a href="">充话费/流量</a>	
+									<a href="">办宽带</a>				
+									<a href="">中国移动</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="bannerxia1_chu_actshow">
+							<div class="bannerxia1_chu_actshow1">
+								<a href="">
+									<img src="img/a-c1/a1-1.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-2.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-3.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-4.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-5.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-6.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-7.jpg" alt="">
+								</a>
+								<a href="">
+									<img src="img/a-c1/a1-8.jpg" alt="">
+								</a>
+							</div>
+							<div class="bannerxia1_chu_actshow2">
+								<a href="" title="小家电">
+									<img src="img/a-c1/a1-9.jpg" alt="">
+								</a>
+								<a href="" title="手机品类">
+									<img src="img/a-c1/a1-10.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
 				</li>			
 			</div>
 			<div class="bannerxia2">
@@ -918,9 +3080,7 @@
 						<div class="bannerxia3_2_a1">
 							<a href="">新人有礼</a>
 						</div>
-						<div class="bannerxia3_2_a2">
-							<img src="img/super会员.png" alt="">
-						</div>						
+						<div class="bannerxia3_2_a2"></div>			
 					</div>
 					<div class="bannerxia3_2_youhui">
 						<img src="img/蓝钻_03.png" alt="">
@@ -933,15 +3093,27 @@
 						<p>&gt;</p>
 					</div>
 				</div>
-				<div class="bannerxia3_3">
-					<li class="bannerxia3_3shang">
-						<a href="" class="bannerxia3_3shang_guan">[关注]</a>
-						<a href="">集万千宠爱于一身：索尼4K电视X9000E</a>
-					</li>
-					<li class="bannerxia3_3shang">
-						<a href="" class="bannerxia3_3shang_guan">[关注]</a>
-						<a href="">金属机身手机用腻了？玻璃机身更具艺术感</a>
-					</li>					
+				<div class="bannerxia3_3">								
+					<div class="bannerxia3_3shangzong bannerxia3_3shangzong_active">
+						<li class="bannerxia3_3shang">
+								<a href="" class="bannerxia3_3shang_guan">[关注]</a>
+								<a href="">集万千宠爱于一身：索尼4K电视X9000E</a>
+						</li>
+						<li class="bannerxia3_3shang">
+								<a href="" class="bannerxia3_3shang_guan">[关注]</a>
+								<a href="">金属机身手机用腻了？玻璃机身更具艺术感</a>
+						</li>
+					</div>
+					<div class="bannerxia3_3shangzong">
+						<li class="bannerxia3_3shang">
+								<a href="" class="bannerxia3_3shang_guan">[关注]</a>
+								<a href="">金属机身手机用腻了？玻璃机身更具艺术感</a>
+						</li>
+						<li class="bannerxia3_3shang">
+								<a href="" class="bannerxia3_3shang_guan">[关注]</a>
+								<a href="">集万千宠爱于一身：索尼4K电视X9000E</a>
+						</li>							
+					</div>										
 				</div>
 				<div class="bannerxia3_4">
 					<div class="bannerxia3_41">
@@ -969,8 +3141,7 @@
 						<a href="">足球</a>
 					</div>
 				</div>				
-			</div>
-			
+			</div>			
 			<ul class="banner_lunbo">
 				<li class="active"></li>
 				<li></li>
@@ -1027,8 +3198,7 @@
 					</div>
 					<div class="dajuhui_top2_span">
 						<span>今日聚惠</span>
-					</div>
-					
+					</div>					
 				</div>
 				<div class="dajuhui_top3">
 					<div class="dajuhui_top2_i">
@@ -1041,96 +3211,465 @@
 			</div>
 			<div class="dajuhui_bottom">
 				<div class="dajuhui_bottom1">
-					<div class="dajuhui_bottom1_1">
-						<div class="dajuhui_bottom1_1_img">
-							<img src="img/2-1.webp" alt="">
-							<div class="dajuhui_bottom1_1_img2">
-								<img src="img/年货节.png" alt="">
+					<div class="dajuhui_bottom_inner">
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="dajuhui_bottom1_1_p">
-							<p>蓝月亮 亮白增艳深层洁净护理洗衣液(薰衣草) 3kg/瓶</p>
-						</div>
-						<div class="dajuhui_bottom1_1_i">
-							<i>&#xe645;</i>
-						</div>
-						<div class="dajuhui_bottom1_1_em">
-							<em>44.80</em>
-						</div>
-						<div class="dajuhui_bottom1_1_shuxian"></div>
-					</div>
-					<div class="dajuhui_bottom1_1">
-						<div class="dajuhui_bottom1_1_img">
-							<img src="img/2-2.webp" alt="">
-							<div class="dajuhui_bottom1_1_img2">
-								<img src="img/年货节.png" alt="">
+							<div class="dajuhui_bottom1_1_p">
+								<p>蓝月亮 亮白增艳深层洁净护理洗衣液(薰衣草) 3kg/瓶</p>
 							</div>
-						</div>
-						<div class="dajuhui_bottom1_1_p">
-							<p>达利园花生牛奶复合蛋白饮料(原味) 250ml*24</p>
-						</div>
-						<div class="dajuhui_bottom1_1_i">
-							<i>&#xe645;</i>
-						</div>
-						<div class="dajuhui_bottom1_1_em">
-							<em>27.90</em>
-						</div>
-						<div class="dajuhui_bottom1_1_shuxian"></div>
-					</div>
-					<div class="dajuhui_bottom1_1">
-						<div class="dajuhui_bottom1_1_img">
-							<img src="img/2-3.webp" alt="">
-							<div class="dajuhui_bottom1_1_img2">
-								<img src="img/年货节.png" alt="">
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
 							</div>
-						</div>
-						<div class="dajuhui_bottom1_1_p">
-							<p>TCL 55A950C 55英寸 前置音响 人工智能 金属超薄</p>
-						</div>
-						<div class="dajuhui_bottom1_1_i">
-							<i>&#xe645;</i>
-						</div>
-						<div class="dajuhui_bottom1_1_em">
-							<em>3588.00</em>
-						</div>
-						<div class="dajuhui_bottom1_1_shuxian"></div>
-					</div>
-					<div class="dajuhui_bottom1_1">
-						<div class="dajuhui_bottom1_1_img">
-							<img src="img/2-4.webp" alt="">
-							<div class="dajuhui_bottom1_1_img2">
-								<img src="img/年货节.png" alt="">
+							<div class="dajuhui_bottom1_1_em">
+								<em>44.80</em>
 							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
 						</div>
-						<div class="dajuhui_bottom1_1_p">
-							<p>光明莫斯利安原味酸牛奶200g*24盒</p>
-						</div>
-						<div class="dajuhui_bottom1_1_i">
-							<i>&#xe645;</i>
-						</div>
-						<div class="dajuhui_bottom1_1_em">
-							<em>69.90</em>
-						</div>
-						<div class="dajuhui_bottom1_1_shuxian"></div>
-					</div>
-					<div class="dajuhui_bottom1_1">
-						<div class="dajuhui_bottom1_1_img">
-							<img src="img/2-5.webp" alt="">
-							<div class="dajuhui_bottom1_1_img2">
-								<img src="img/年货节.png" alt="">
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
 							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>达利园花生牛奶复合蛋白饮料(原味) 250ml*24</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>27.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
 						</div>
-						<div class="dajuhui_bottom1_1_p">
-							<p>农夫山泉天然水4L*6整箱 家庭用水</p>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>TCL 55A950C 55英寸 前置音响 人工智能 金属超薄</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>3588.00</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
 						</div>
-						<div class="dajuhui_bottom1_1_i">
-							<i>&#xe645;</i>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>光明莫斯利安原味酸牛奶200g*24盒</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>69.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
 						</div>
-						<div class="dajuhui_bottom1_1_em">
-							<em>41.90</em>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>农夫山泉天然水4L*6整箱 家庭用水</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>41.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
 						</div>
-						<div class="dajuhui_bottom1_1_shuxian"></div>
+						<!--1-5-->
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-1.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>蓝月亮 亮白增艳深层洁净护理洗衣液(薰衣草) 3kg/瓶</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>44.80</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-2.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>达利园花生牛奶复合蛋白饮料(原味) 250ml*24</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>27.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>TCL 55A950C 55英寸 前置音响 人工智能 金属超薄</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>3588.00</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-4.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>光明莫斯利安原味酸牛奶200g*24盒</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>69.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-5.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>农夫山泉天然水4L*6整箱 家庭用水</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>41.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<!--6-10-->
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>蓝月亮 亮白增艳深层洁净护理洗衣液(薰衣草) 3kg/瓶</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>44.80</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>达利园花生牛奶复合蛋白饮料(原味) 250ml*24</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>27.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>TCL 55A950C 55英寸 前置音响 人工智能 金属超薄</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>3588.00</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>光明莫斯利安原味酸牛奶200g*24盒</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>69.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>农夫山泉天然水4L*6整箱 家庭用水</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>41.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<!--11-15-->
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-5.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>蓝月亮 亮白增艳深层洁净护理洗衣液(薰衣草) 3kg/瓶</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>44.80</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-5.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>达利园花生牛奶复合蛋白饮料(原味) 250ml*24</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>27.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-5.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>TCL 55A950C 55英寸 前置音响 人工智能 金属超薄</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>3588.00</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-4.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>光明莫斯利安原味酸牛奶200g*24盒</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>69.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-5.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>农夫山泉天然水4L*6整箱 家庭用水</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>41.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-1.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>蓝月亮 亮白增艳深层洁净护理洗衣液(薰衣草) 3kg/瓶</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>44.80</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-2.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>达利园花生牛奶复合蛋白饮料(原味) 250ml*24</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>27.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-3.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>TCL 55A950C 55英寸 前置音响 人工智能 金属超薄</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>3588.00</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-4.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>光明莫斯利安原味酸牛奶200g*24盒</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>69.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+						<div class="dajuhui_bottom1_1">
+							<div class="dajuhui_bottom1_1_img">
+								<img src="img/2-5.webp" alt="">
+								<div class="dajuhui_bottom1_1_img2">
+									<img src="img/年货节.png" alt="">
+								</div>
+							</div>
+							<div class="dajuhui_bottom1_1_p">
+								<p>农夫山泉天然水4L*6整箱 家庭用水</p>
+							</div>
+							<div class="dajuhui_bottom1_1_i">
+								<i>&#xe645;</i>
+							</div>
+							<div class="dajuhui_bottom1_1_em">
+								<em>41.90</em>
+							</div>
+							<div class="dajuhui_bottom1_1_shuxian"></div>
+						</div>
+
 					</div>
+					<a href="javascript:;" class="dajuhui_zuojiantou"></a>
+					<a href="javascript:;" class="dajuhui_youjiantou"></a>
 				</div>
 				<div class="dajuhui_bottom2">
 					<img src="img/2-6.jpg" alt="">
@@ -1234,8 +3773,7 @@
 				</div>
 				<div class="tese_bottom">
 					<div class="tese_bottom1">
-						<div class="tese_bottom1_1">
-						</div>
+						<div class="tese_bottom1_1">半夜饿了咋整</div>
 						<div class="tese_bottom1_2">
 							<p>让我来拯救饿货吧</p>
 						</div>
@@ -1247,8 +3785,7 @@
 						</div>
 					</div>
 					<div class="tese_bottom1 tese_bottom2">
-						<div class="tese_bottom1_1">
-						</div>
+						<div class="tese_bottom1_1">厨房管理员</div>
 						<div class="tese_bottom1_2">
 							<p>健康从点滴开始</p>
 						</div>
@@ -1260,8 +3797,7 @@
 						</div>
 					</div>
 					<div class="tese_bottom1 tese_bottom3">
-						<div class="tese_bottom1_1">
-						</div>
+						<div class="tese_bottom1_1">爱车一族</div>
 						<div class="tese_bottom1_2">
 							<p>自驾游说走就走</p>
 						</div>
@@ -1273,8 +3809,7 @@
 						</div>
 					</div>
 					<div class="tese_bottom1 tese_bottom2 tese_bottom3">
-						<div class="tese_bottom1_1">
-						</div>
+						<div class="tese_bottom1_1">记录爱留住美</div>
 						<div class="tese_bottom1_2">
 							<p>拍出我们幸福的模样</p>
 						</div>
@@ -1286,9 +3821,6 @@
 						</div>
 					</div>
 				</div>
-				
-
-				
 			</div>
 			<div class="paihangbang">
 				<div class="haohuo1_top paihangbang_top">
@@ -1301,103 +3833,501 @@
 					</div>
 				</div>
 				<div class="paihangbang_bottom">
-					<div class="paihangbang_bottom1">
-						<div class="paihangbang_bottom1_1">
-							<img src="img/paihangbang1.webp" alt="">
-							<div class="paihangbang_bottom1_1paiming">
-							<img src="img/paiming1.png" alt="">
-							<p>1</p>
+					<div class="paihangbang_bottom1_inner">
+						<!--13-18-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美素佳儿（Friso）金装幼儿配方奶粉</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;149.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom_xian">-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang4.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门非转基因压榨玉米油4.5L </p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang5.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>金龙鱼 盘锦大米 5kg袋装粳米</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;25.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang6.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门 压榨一级 葵花籽油4.5L</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--1-6-->
+						<div class="paihangbang_bottom1">
+							<div class="paihangbang_bottom1_1">
+								<img src="img/paihangbang1.webp" alt="">
+								<div class="paihangbang_bottom1_1paiming">
+								<img src="img/paiming1.png" alt="">
+								<p>1</p>
+								</div>
+							</div>
+
+							<div class="paihangbang_bottom1_2">
+								<p>美赞臣(MeadJohnson)</p>
+							</div>
+							<div class="paihangbang_bottom1_3">
+								<p>&#xe645;165.00</p>
 							</div>
 						</div>
-						
-						<div class="paihangbang_bottom1_2">
-							<p>美赞臣(MeadJohnson)</p>
-						</div>
-						<div class="paihangbang_bottom1_3">
-							<p>&#xe645;165.00</p>
-						</div>
-					</div>
-					<div class="paihangbang_bottom1 paihangbang_bottom2">
-						<div class="paihangbang_bottom1_1">
-							<img src="img/paihangbang2.webp" alt="">
-							<div class="paihangbang_bottom1_1paiming">
-							<img src="img/paihang2.png" alt="">
-							<p>2</p>
+						<div class="paihangbang_bottom1 paihangbang_bottom2">
+							<div class="paihangbang_bottom1_1">
+								<img src="img/paihangbang2.webp" alt="">
+								<div class="paihangbang_bottom1_1paiming">
+								<img src="img/paihang2.png" alt="">
+								<p>2</p>
+								</div>
+							</div>
+
+							<div class="paihangbang_bottom1_2">
+								<p>美素佳儿（Friso）金装幼儿配方奶粉</p>
+							</div>
+							<div class="paihangbang_bottom1_3">
+								<p>&#xe645;165.00</p>
 							</div>
 						</div>
-						
-						<div class="paihangbang_bottom1_2">
-							<p>美素佳儿（Friso）金装幼儿配方奶粉</p>
-						</div>
-						<div class="paihangbang_bottom1_3">
-							<p>&#xe645;165.00</p>
-						</div>
-					</div>
-					<div class="paihangbang_bottom1 paihangbang_bottom2">
-						<div class="paihangbang_bottom1_1">
-							<img src="img/paihangbang3.webp" alt="">
-							<div class="paihangbang_bottom1_1paiming">
-							<img src="img/paiming3.png" alt="">
-							<p>3</p>
+						<div class="paihangbang_bottom1 paihangbang_bottom2">
+							<div class="paihangbang_bottom1_1">
+								<img src="img/paihangbang3.webp" alt="">
+								<div class="paihangbang_bottom1_1paiming">
+								<img src="img/paiming3.png" alt="">
+								<p>3</p>
+								</div>
+							</div>
+
+							<div class="paihangbang_bottom1_2">
+								<p>美赞臣(MeadJohnson)</p>
+							</div>
+							<div class="paihangbang_bottom1_3">
+								<p>&#xe645;149.00</p>
 							</div>
 						</div>
-						
-						<div class="paihangbang_bottom1_2">
-							<p>美赞臣(MeadJohnson)</p>
+						<div class="paihangbang_bottom_xian">
 						</div>
-						<div class="paihangbang_bottom1_3">
-							<p>&#xe645;149.00</p>
-						</div>
-					</div>
-					<div class="paihangbang_bottom_xian">
-					</div>
-					<div class="paihangbang_bottom1">
-						<div class="paihangbang_bottom1_1">
-							<img src="img/paiahngbang4.webp" alt="">
-							<div class="paihangbang_bottom1_1paiming">
-							<img src="img/paiming1.png" alt="">
-							<p>1</p>
+						<div class="paihangbang_bottom1">
+							<div class="paihangbang_bottom1_1">
+								<img src="img/paiahngbang4.webp" alt="">
+								<div class="paihangbang_bottom1_1paiming">
+								<img src="img/paiming1.png" alt="">
+								<p>1</p>
+								</div>
+							</div>
+
+							<div class="paihangbang_bottom1_2">
+								<p>福临门非转基因压榨玉米油4.5L </p>
+							</div>
+							<div class="paihangbang_bottom1_3">
+								<p>&#xe645;45.90</p>
 							</div>
 						</div>
-						
-						<div class="paihangbang_bottom1_2">
-							<p>福临门非转基因压榨玉米油4.5L </p>
-						</div>
-						<div class="paihangbang_bottom1_3">
-							<p>&#xe645;45.90</p>
-						</div>
-					</div>
-					<div class="paihangbang_bottom1 paihangbang_bottom2">
-						<div class="paihangbang_bottom1_1">
-							<img src="img/paiahngbang5.webp" alt="">
-							<div class="paihangbang_bottom1_1paiming">
-							<img src="img/paihang2.png" alt="">
-							<p>2</p>
+						<div class="paihangbang_bottom1 paihangbang_bottom2">
+							<div class="paihangbang_bottom1_1">
+								<img src="img/paiahngbang5.webp" alt="">
+								<div class="paihangbang_bottom1_1paiming">
+								<img src="img/paihang2.png" alt="">
+								<p>2</p>
+								</div>
+							</div>
+
+							<div class="paihangbang_bottom1_2">
+								<p>金龙鱼 盘锦大米 5kg袋装粳米</p>
+							</div>
+							<div class="paihangbang_bottom1_3">
+								<p>&#xe645;25.90</p>
 							</div>
 						</div>
-						
-						<div class="paihangbang_bottom1_2">
-							<p>金龙鱼 盘锦大米 5kg袋装粳米</p>
-						</div>
-						<div class="paihangbang_bottom1_3">
-							<p>&#xe645;25.90</p>
-						</div>
-					</div>
-					<div class="paihangbang_bottom1 paihangbang_bottom2">
-						<div class="paihangbang_bottom1_1">
-							<img src="img/paihangbang6.webp" alt="">
-							<div class="paihangbang_bottom1_1paiming">
-							<img src="img/paiming3.png" alt="">
-							<p>3</p>
+						<div class="paihangbang_bottom1 paihangbang_bottom2">
+							<div class="paihangbang_bottom1_1">
+								<img src="img/paihangbang6.webp" alt="">
+								<div class="paihangbang_bottom1_1paiming">
+								<img src="img/paiming3.png" alt="">
+								<p>3</p>
+								</div>
+							</div>
+
+							<div class="paihangbang_bottom1_2">
+								<p>福临门 压榨一级 葵花籽油4.5L</p>
+							</div>
+							<div class="paihangbang_bottom1_3">
+								<p>&#xe645;45.90</p>
 							</div>
 						</div>
-						
-						<div class="paihangbang_bottom1_2">
-							<p>福临门 压榨一级 葵花籽油4.5L</p>
-						</div>
-						<div class="paihangbang_bottom1_3">
-							<p>&#xe645;45.90</p>
-						</div>
+						<!--7-12-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美素佳儿（Friso）金装幼儿配方奶粉</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangban2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;149.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom_xian">-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门非转基因压榨玉米油4.5L </p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>金龙鱼 盘锦大米 5kg袋装粳米</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;25.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门 压榨一级 葵花籽油4.5L</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--&lt;!&ndash;13-18&ndash;&gt;-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美素佳儿（Friso）金装幼儿配方奶粉</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;149.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom_xian">-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang4.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门非转基因压榨玉米油4.5L </p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang5.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>金龙鱼 盘锦大米 5kg袋装粳米</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;25.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang6.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门 压榨一级 葵花籽油4.5L</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--&lt;!&ndash;1-6&ndash;&gt;-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang1.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang2.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美素佳儿（Friso）金装幼儿配方奶粉</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;165.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang3.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>美赞臣(MeadJohnson)</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;149.00</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom_xian">-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang4.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming1.png" alt="">-->
+									<!--<p>1</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门非转基因压榨玉米油4.5L </p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paiahngbang5.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paihang2.png" alt="">-->
+									<!--<p>2</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>金龙鱼 盘锦大米 5kg袋装粳米</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;25.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="paihangbang_bottom1 paihangbang_bottom2">-->
+							<!--<div class="paihangbang_bottom1_1">-->
+								<!--<img src="img/paihangbang6.webp" alt="">-->
+								<!--<div class="paihangbang_bottom1_1paiming">-->
+									<!--<img src="img/paiming3.png" alt="">-->
+									<!--<p>3</p>-->
+								<!--</div>-->
+							<!--</div>-->
+
+							<!--<div class="paihangbang_bottom1_2">-->
+								<!--<p>福临门 压榨一级 葵花籽油4.5L</p>-->
+							<!--</div>-->
+							<!--<div class="paihangbang_bottom1_3">-->
+								<!--<p>&#xe645;45.90</p>-->
+							<!--</div>-->
+						<!--</div>-->
+						<a class="paihangbang_bottom_left"></a>
+						<a class="paihangbang_bottom_right"></a>
 					</div>
 				</div>	
 			</div>
@@ -1726,9 +4656,7 @@
 					</div>
 					<div class="suningshengxian_left1_xia">
 						<img src="img/shipin.jpg" alt="">
-						<div class="suningshengxian_left1_xia_shipin">
-							<img src="img/shipinxaiotubiao_02.png" alt="">
-						</div>
+						<div class="suningshengxian_left1_xia_shipin"></div>
 						<div class="suningshengxian_left1_xia2">
 							<div class="suningshengxian_left1_xia2_p">
 								<p>互动抽奖，专家教你孕期美肤小秘诀</p>
@@ -1738,9 +4666,7 @@
 					<div class="suningshengxian_left1_3">
 						<div class="suningshengxian_left1_31">
 							<img src="img/shipin.jpg" alt="">
-							<div class="suningshengxian_left1_31_shipintubiao">
-								<img src="img/shipinxaiotubiao_02.png" alt="">
-							</div>
+							<div class="suningshengxian_left1_31_shipintubiao"></div>
 							<div class="suningshengxian_left1_31_xia">
 								<div class="suningshengxian_left1_31_xia_p">
 									<p># 互动抽奖，专家..</p>
@@ -1749,9 +4675,7 @@
 						</div>
 						<div class="suningshengxian_left1_31">
 							<img src="img/shipin2.jpg" alt="">
-							<div class="suningshengxian_left1_31_shipintubiao">
-								<img src="img/shipinxaiotubiao_02.png" alt="">
-							</div>
+							<div class="suningshengxian_left1_31_shipintubiao"></div>
 							<div class="suningshengxian_left1_31_xia">
 								<div class="suningshengxian_left1_31_xia_p">
 									<p># 主播陪你聊名表</p>
@@ -1760,9 +4684,7 @@
 						</div>
 						<div class="suningshengxian_left1_31 suningshengxian_left1_33">
 							<img src="img/shipin3.jpg" alt="">
-							<div class="suningshengxian_left1_31_shipintubiao">
-								<img src="img/shipinxaiotubiao_02.png" alt="">
-							</div>
+							<div class="suningshengxian_left1_31_shipintubiao"></div>
 							<div class="suningshengxian_left1_31_xia">
 								<div class="suningshengxian_left1_31_xia_p">
 									<p># 化妆小白看过来</p>
@@ -1801,7 +4723,7 @@
 		<!-- 中间三小图开始 -->
 		<div class="santu">
 			<div class="santu1">
-				<img src="img/san1.jpg" alt="">
+				<img src="img/san1.jpg" alt="" title="海信立省">
 			</div>
 			<div class="santu2">
 				<img src="img/san2.jpg" alt="">
@@ -2306,7 +5228,6 @@
 							<a href="">以旧换新</a>
 							<a href="">手机周边</a>
 							<a href="">智能手表</a>
-
 						</div>
 					</div>
 					<div class="remenshouji2">
@@ -2318,7 +5239,6 @@
 							<div class="remenshouji2_xiadi_p2">
 								<p>iPhone X立减 低至7888限量</p>
 							</div>
-
 						</div>
 					</div>
 					<div class="remenshouji3">
@@ -2342,7 +5262,6 @@
 							<p class="remenshouji3_1_2">Z17mini最高直降400元</p>
 							<img src="img/remenshouji5.jpg" alt="" class="remenshouji3_1_img">
 						</div>
-
 					</div>
 					<div class="remenshouji4">
 						<div class="remenshouji4_1">
@@ -2359,7 +5278,6 @@
 							<div class="remenshouji4_2_img">
 								<img src="img/remenshouji7.jpg" alt="">
 							</div>
-							
 						</div>
 						<div class="remenshouji4_2">
 							<p class="remenshouji4_2_p">三星Note8</p>
@@ -2368,7 +5286,6 @@
 							<div class="remenshouji4_2_img">
 								<img src="img/remenshouji8.jpg" alt="">
 							</div>
-							
 						</div>
 					</div>
 					<div class="remenshouji5">
@@ -2378,7 +5295,6 @@
 						<img src="img/remenshoujidi4.jpg" alt="">
 						<img src="img/remenshoujidi5.jpg" alt="" class="remenshouji5_img5">
 						<img src="img/remenshoujidi6.jpg" alt="" class="remenshouji5_img6">
-
 					</div>
 				</div>
 				<div class="remenshouji diannaobangong">
@@ -2394,7 +5310,6 @@
 							<a href="">路由器</a>
 							<a href="">笔记本</a>
 							<a href="">iPad</a>
-
 						</div>
 					</div>
 					<div class="remenshouji2">
@@ -2406,7 +5321,6 @@
 							<div class="remenshouji2_xiadi_p2">
 								<p>限量抢iPad 32G 2368元</p>
 							</div>
-
 						</div>
 					</div>
 					<div class="remenshouji3">
@@ -2430,7 +5344,6 @@
 							<p class="remenshouji3_1_2 diannaobangong3_1_2">游戏鼠标39元起</p>
 							<img src="img/dinnaobangong5.jpg" alt="" class="remenshouji3_1_img">
 						</div>
-
 					</div>
 					<div class="remenshouji4">
 						<div class="remenshouji4_1">
@@ -2447,7 +5360,6 @@
 							<div class="remenshouji4_2_img">
 								<img src="img/diannaobangong7.jpg" alt="">
 							</div>
-							
 						</div>
 						<div class="remenshouji4_2">
 							<p class="remenshouji4_2_p">ThinkPad</p>
@@ -2456,7 +5368,6 @@
 							<div class="remenshouji4_2_img">
 								<img src="img/diannaobangong8.jpg" alt="">
 							</div>
-							
 						</div>
 					</div>
 					<div class="remenshouji5">
@@ -2466,7 +5377,6 @@
 						<img src="img/diannaobangongdi4.jpg" alt="">
 						<img src="img/diannaobangongdi5.jpg" alt="" class="remenshouji5_img5">
 						<img src="img/diannaobangongdi6.jpg" alt="" class="remenshouji5_img6">
-
 					</div>
 				</div>
 			</div>
@@ -3175,6 +6085,8 @@
 						<div class="lepingou2_1">
 							<div class="lepingou2_1_img">
 								<img src="img/lepingou1.jpg" alt="">
+								<div class="lepingou2_1_xiaokuang"></div>
+								<div class="lepingou2_1_dakuang"></div>
 							</div>
 							<p class="lepingou2_1_p">【10件起售】五羊温和雪肌孕妇面膜23ml（单片）</p>
 							<p class="lepingou2_1_p2">拼购价
@@ -3187,6 +6099,8 @@
 						<div class="lepingou2_1">
 							<div class="lepingou2_1_img">
 								<img src="img/lepingou1.jpg" alt="">
+								<div class="lepingou2_1_xiaokuang"></div>
+								<div class="lepingou2_1_dakuang"></div>
 							</div>
 							<p class="lepingou2_1_p">【10件起售】五羊温和雪肌孕妇面膜23ml（单片）</p>
 							<p class="lepingou2_1_p2">拼购价
@@ -3199,6 +6113,8 @@
 						<div class="lepingou2_1">
 							<div class="lepingou2_1_img">
 								<img src="img/lepingou1.jpg" alt="">
+								<div class="lepingou2_1_xiaokuang"></div>
+								<div class="lepingou2_1_dakuang"></div>
 							</div>
 							<p class="lepingou2_1_p">【10件起售】五羊温和雪肌孕妇面膜23ml（单片）</p>
 							<p class="lepingou2_1_p2">拼购价
@@ -3208,8 +6124,6 @@
 							</p>
 							<p class="lepingou2_1_p4">2人团</p>
 						</div>
-						
-											
 					</div>
 				</div>
 			</div>
@@ -3222,7 +6136,7 @@
 					<div class="cai_top1"></div>
 					<h5>猜你喜欢</h5>
 				</div>
-				<div class="cai_content">
+				<div class="cai_content">				
 					<div class="cai_content1">
 						<img src="img/a.cnxh1-1.webp" alt="">
 						<div class="cai_content1_2">
@@ -3937,393 +6851,7 @@
 							<i>&#xe645;</i>
 							"2348.00"
 						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-					<div class="cai_content1">
-						<img src="img/a.cnxh1-1.webp" alt="">
-						<div class="cai_content1_2">
-							<i class="ziying">自营</i>
-							Apple iPad MPGT2CH/A 9.7英寸 平板电脑（32GB WLAN 金色）
-						</div>
-						<div class="cai_content1_3">
-							<i>&#xe645;</i>
-							"2348.00"
-						</div>
-					</div>
-									
+					</div>									
 				</div>
 				<div class="cai_footer">
 					<span class="cai_footer_shuxian1"></span>
@@ -4411,48 +6939,7 @@
 					<h2>会员等级</h2>
 					<h2>常见问题</h2>
 					<h2>品牌大全</h2>
-				</div>
-					<!-- <div class="footer4_1">
-						<h1>购物指南</h1>
-						<h2>导购演示</h2>
-						<h2>免费注册</h2>
-						<h2>会员等级</h2>
-						<h2>常见问题</h2>
-						<h2>品牌大全</h2>
-						<h2>常见问题</h2>
-					</div>
-					<div class="footer4_1">
-						<h1>购物指南</h1>
-						<h2>导购演示</h2>
-						<h2>免费注册</h2>
-						<h2>会员等级</h2>
-						<h2>常见问题</h2>
-						<h2>品牌大全</h2>
-					</div>
-					<div class="footer4_1">
-						<h1>购物指南</h1>
-						<h2>导购演示</h2>
-						<h2>免费注册</h2>
-						<h2>会员等级</h2>
-						<h2>常见问题</h2>
-						<h2>品牌大全</h2>
-						<h2>常见问题</h2>
-					</div>
-					<div class="footer4-1">
-						<div class="footer4_1">
-							<h1>购物指南</h1>
-							<h2>导购演示</h2>
-							<h2>免费注册</h2>
-							<h2>会员等级</h2>
-							<h2>常见问题</h2>
-							<h2>品牌大全</h2>
-						</div>
-						<div class="footer5">
-							<h1>购物指南</h1>
-							<a href="">全国300个城市1600家门店3000个服务点为您提供最贴心的服务！</a>
-						</div>
-					</div>
-				</div>	 -->
+				</div>				
 			</div>
 		</div>
 		<div class="zhandian_xia">
@@ -4522,11 +7009,9 @@
 					<img src="img/a.zdx1-3.jpg" alt="" class="zhandian_xia_content1_image1">
 					<img src="img/a.zdx1-4.png" alt="">
 				</div>
-
 			</div>
 		</div>
 	</div>
-
 </body>
 <script src="js/index.js"></script>
 </html>
