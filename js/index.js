@@ -201,29 +201,35 @@
 }
 //右侧话费上内容
 {
-    let imgs = document.querySelectorAll(".bannerxia3_3 .bannerxia3_3shangzong");
-    let banner = document.querySelector(".bannerxia3");
-    let n = 0;
-    let t = setInterval(move, 3000);
-    function move() {
-        n++;
-        if (n === imgs.length) {
-            n = 0;
+        let inner=document.querySelector(".ax33_inner");
+        let contents=document.querySelectorAll(".bannerxia3_3shangzong");
+        let box=document.querySelector(".bannerxia3_3");
+        let n=1;
+        let t=setInterval(move,3000);
+        function move(){
+            n++;
+            inner.style.transition="all 1s";
+            inner.style.marginTop=n*-114+"px";
         }
-        if (n < 0) {
-            n = imgs.length - 1;
-        }
-        for (var i = 0; i < imgs.length; i++) {
-            imgs[i].classList.remove("bannerxia3_3shangzong_active");
-        }
-        imgs[n].classList.add("bannerxia3_3shangzong_active");
-    }
-    banner.onmouseenter = function () {
-        clearInterval(t);
-    };
-    banner.onmouseleave = function () {
-        t = setInterval(move, 3000);
-    };
+        inner.addEventListener("transitionend",function(){
+            if(n===3){
+                inner.style.transition="none";
+                inner.style.marginTop="-114px";
+                n=1;
+            }
+            if(n===0){
+                inner.style.transition="none";
+                inner.style.marginTop="-342px";
+                n=2;
+            }
+        });
+        box.onmouseenter=function () {
+            clearInterval(t);
+        };
+        box.onmouseleave=function () {
+            t=setInterval(move,3000);
+        };
+
 }
 //右侧定框效果
 {
@@ -322,7 +328,6 @@
         }
     });
 }
-
 //大聚惠下弹框
 {
     let text=document.querySelectorAll(".bannershangli");
@@ -338,4 +343,127 @@
             box[index].style.display="none";
         };
     })
+}
+//排行榜
+{
+    let inner = document.querySelector(".paihangbang_bottom1_inner");
+    let left = document.querySelector(".paihangbang_bottom_left");
+    let right = document.querySelector(".paihangbang_bottom_right");
+    let n = 1;
+    let flag = true;
+    right.onclick = function () {
+        if (flag) {
+            flag = false;
+            n++;
+            inner.style.transition = "all 0.5s";
+            inner.style.marginLeft = -369 * n + "px";
+        }
+    };
+    left.onclick = function () {
+        if (flag) {
+            n--;
+            flag = false;
+            inner.style.transition = "all 0.5s";
+            inner.style.marginLeft = -369* n + "px";
+        }
+    };
+    inner.addEventListener("transitionend", function () {
+        flag = true;
+        if (n === 4) {
+            inner.style.transition = "none";
+            inner.style.marginLeft = "-369px";
+            n = 1;
+        }
+        if (n === 0) {
+            inner.style.transition = "none";
+            inner.style.marginLeft = "-1107px";
+            n = 3;
+        }
+    });
+}
+//乐拼购
+{
+    let inner = document.querySelector(".lepingou2_inner");
+    let left = document.querySelector(".lp_zuojiantou");
+    let right = document.querySelector(".lp_youjiantou");
+    let n = 1;
+    let flag = true;
+    right.onclick = function () {
+        if (flag) {
+            flag = false;
+            n++;
+            inner.style.transition = "all 0.5s";
+            inner.style.marginLeft = -590 * n + "px";
+        }
+    };
+    left.onclick = function () {
+        if (flag) {
+            n--;
+            flag = false;
+            inner.style.transition = "all 0.5s";
+            inner.style.marginLeft = -590 * n + "px";
+        }
+    };
+    inner.addEventListener("transitionend", function () {
+        flag = true;
+        if (n === 4) {
+            inner.style.transition = "none";
+            inner.style.marginLeft = "-590px";
+            n = 1;
+        }
+        if (n === 0) {
+            inner.style.transition = "none";
+            inner.style.marginLeft = "-1770px";
+            n = 3;
+        }
+    });
+}
+//视频
+{
+    let inner = document.querySelector(".sl_inner");
+    let left = document.querySelector(".ssxl_zjiantou");
+    let right = document.querySelector(".ssxl_yjiantou");
+    let n = 1;
+    let flag = true;
+    right.onclick = function () {
+        if (flag) {
+            flag = false;
+            n++;
+            inner.style.transition = "all 0.5s";
+            inner.style.marginLeft = -390 * n + "px";
+        }
+    };
+    left.onclick = function () {
+        if (flag) {
+            n--;
+            flag = false;
+            inner.style.transition = "all 0.5s";
+            inner.style.marginLeft = -390* n + "px";
+        }
+    };
+    inner.addEventListener("transitionend", function () {
+        flag = true;
+        if (n === 3) {
+            inner.style.transition = "none";
+            inner.style.marginLeft = "-390px";
+            n = 1;
+        }
+        if (n === 0) {
+            inner.style.transition = "none";
+            inner.style.marginLeft = "-780px";
+            n = 2;
+        }
+    });
+}
+//搜索框里的商品分类
+{
+    let s=document.querySelector(".bannershang1");
+    let c=document.querySelector(".bns_chu");
+    s.onmouseenter=function () {
+        console.log(1);
+        c.style.display="block";
+    };
+    s.onmouseleave=function () {
+        c.style.display="none";
+    }
 }
